@@ -4,6 +4,7 @@
 // modern cpp tutorial
 //
 // created by changkun at changkun.de
+// https://github.com/changkun/modern-cpp-tutorial
 //
 
 #include <iostream>
@@ -21,7 +22,7 @@ int main() {
         std::cout << "NULL == nullptr" << std::endl;
 
     foo(0);          // will call foo(int)
-    // foo(NULL);    // doen't compile
+    // foo(NULL);    // doesn't compile
     foo(nullptr);    // will call foo(char*)
     return 0;
 }

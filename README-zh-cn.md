@@ -1,8 +1,8 @@
 <img src="assets/cover-2nd.png" alt="logo" height="550" align="right" />
 
-# 《高速上手 C++11/14/17/20》
+# 现代 C++ 教程：高速上手 C++11/14/17/20
 
-[![](https://img.shields.io/badge/language-English-blue.svg?style=flat-square)](./README.md) [![](https://img.shields.io/badge/language-简体中文-red.svg?style=flat-square)](./README-zh-cn.md) [![](https://img.shields.io/badge/€-donate-ff69b4.svg?style=flat-square)](./assets/donate.md) [![](https://img.shields.io/badge/chat-community-667ed5.svg?style=flat-square)](./assets/community.md)
+![](https://img.shields.io/travis/changkun/modern-cpp-tutorial/master?style=flat-square) [![](https://img.shields.io/badge/language-English-blue.svg?style=flat-square)](./README.md) [![](https://img.shields.io/badge/language-简体中文-red.svg?style=flat-square)](./README-zh-cn.md) [![](https://img.shields.io/badge/€-donate-ff69b4.svg?style=flat-square)](./assets/donate.md) [![](https://img.shields.io/badge/chat-community-667ed5.svg?style=flat-square)](./assets/community.md)
 
 ## 本书目的
 
@@ -22,8 +22,9 @@
 你可以选择以下几种阅读方式：
 
 1. [GitHub 在线](./book/zh-cn/toc.md)
-2. [PDF 文档](./pdf/zh-cn/modern-cpp-tutorial.pdf)
-3. [网站](https://changkun.de/modern-cpp/)
+2. [PDF 文档](https://changkun.de/modern-cpp/modern-cpp-tutorial-zh-cn.pdf)
+3. [EPUB 文档](https://changkun.de/modern-cpp/epub/modern-cpp-tutorial-zh-cn.epub)
+4. [网站](https://changkun.de/modern-cpp/)
 
 ## 相关代码
 
@@ -31,11 +32,19 @@
 
 ## 随书习题
 
-本书每章最后还加入了少量难度极小的习题，仅用于检验你是否能混合运用当前章节中的知识点。你可以在[这里](exercises)找到习题的答案，文件夹名称为章节序号。
+本书每章最后还加入了少量难度极小的习题，仅用于检验你是否能混合运用当前章节中的知识点。你可以在[这里](./exercises)找到习题的答案，文件夹名称为章节序号。
 
 ## 本书网站
 
 本书的[网站](https://changkun.de/modern-cpp)源码可以在[这里](./website)找到，由 [hexo](https://hexo.io) 和 [vuejs](https://vuejs.org) 协同构建而成。网站旨在提供一个除 GitHub 之外的阅读方式，除了在桌面端访问之外，你也可以在移动端上阅读本书。
+
+## 构建
+
+如果你希望在本地编译整个仓库，我们建议使用 [Docker](https://docs.docker.com/install/)。如果 Docker 在你的本地能正常使用，则可以简单的通过运行下面的指令完成构建：
+
+```bash
+$ make build
+```
 
 ## 致谢
 

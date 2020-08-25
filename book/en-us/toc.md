@@ -30,6 +30,7 @@
       - Default template parameters
       - Variadic templates
       - Fold expression
+      - Non-type template parameter deduction
     + 2.6 Object-oriented
       - Delegate constructor
       - Inheritance constructor
@@ -41,64 +42,66 @@
 - [**Chapter 03 Language Runtime Enhancements**](./03-runtime.md)
     + 3.1 Lambda expression
         + Basics
-            + Value capture
-            + Reference capture
-            + Implicit capture
-            + Expression capture
-        + Generic lambda
+        + Generics
     + 3.2 Function object wrapper
         + std::function
         + std::bind/std::placeholder
     + 3.3 rvalue reference
         + lvalue, rvalue, prvalue, xvalue
-        + rvalue reference & lvalue reference
+        + rvalue reference and lvalue reference
         + Move semantics
         + Perfect forwarding
-- [**Chapter 04 Sandard Library: Containers**](./04-containers.md)
-    + 4.1 `std::array` and `std::forward_list`
+- [**Chapter 04 Containers**](./04-containers.md)
+    + 4.1 Linear containers
+        + `std::array`
+        + `std::forward_list`
     + 4.2 Unordered containers
-      + `std::unordered_set`
-      + `std::unordered_map`
+        + `std::unordered_set`
+        + `std::unordered_map`
     + 4.3 Tuples `std::tuple`
         + basic operation
-        + runtime indexing
+        + runtime indexing `std::variant`
         + merge and iteration
-- [**Chapter 05 Sandard Library: Pointers**](./05-pointers.md)
+- [**Chapter 05 Smart Pointers and Memory Management**](./05-pointers.md)
     + 5.1 RAII and reference counting
     + 5.2 `std::shared_ptr`
     + 5.3 `std::unique_ptr`
-- [**Chapter 06 Sandard Library: Regular Expression**](./06-regex.md)
-    + 6.1 Regular Expression Introduction
-        + Normal characters
+    + 5.4 `std::weak_ptr`
+- [**Chapter 06 Regular Expression**](./06-regex.md)
+    + 6.1 Introduction
+        + Ordinary characters
         + Special characters
-        + Determinative
-    + 6.2 `std::regex` and related
+        + Quantifiers
+    + 6.2 `std::regex` and its related
         + `std::regex`
         + `std::regex_match`
         + `std::match_results`
-- [**Chapter 07 Sandard Library: Threads and Concurrency**](./07-thread.md)
-    + 7.1 `std::thread`
-    + 7.2 `std::mutex` and `std::unique_lock`
-    + 7.3 `std::future` and `std::packaged_task`
-    + 7.4 `std::condition_variable`
-    + 7.5 `std::atomic` and memory order
-    + 7.6 Transactional memory
-- [**Chapter 08 Sandard Library: File System**](./08-filesystem.md)
+- [**Chapter 07 Parallelism and Concurrency**](./07-thread.md)
+    + 7.1 Basic of Parallelism
+    + 7.2 Mutex and Critical Section
+    + 7.3 Futures
+    + 7.4 Condition Variable
+    + 7.5 Atomic Operation and Memory Model
+        + Atomic Operation
+        + Consistency Model
+        + Memory Orders
+- [**Chapter 08 File System**](./08-filesystem.md)
     + 8.1 Documents and links
     + 8.2 `std::filesystem`
 - [**Chapter 09 Minor Features**](./09-others.md)
     + 9.1 New Types
         + `long long int`
-    + 9.2 `noexcept` and its operates
+    + 9.2 `noexcept` and Its Operations
     + 9.3 Literal
-        + Raw string literal
-        + Custom string literal
-    + 9.4 Math Library
+        + Raw String Literal
+        + Custom String Literal
+    + 9.4 Memory Alignment
 - [**Chapter 10 Outlook: Introduction of C++20**](./10-cpp20.md)
-    + Concept
-    + Range
-    + Module
-    + Coroutine
+    + 10.1 Concept
+    + 10.2 Range
+    + 10.3 Module
+    + 10.4 Coroutine
+    + 10.5 Transaction Memory
 - [**Appendix 1: Further Study Materials**](./appendix1.md)
 - [**Appendix 2: Modern C++ Best Practices**](./appendix2.md)
 
